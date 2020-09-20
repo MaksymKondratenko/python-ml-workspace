@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def activation_forward(A_prev, W, b, activation):
+def propagate_forward(A_prev, W, b, activation):
     """
     Forward propagation linear function
 
